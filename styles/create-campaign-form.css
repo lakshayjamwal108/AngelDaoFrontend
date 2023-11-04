@@ -1,0 +1,79 @@
+/* create-campaign-form.css */
+
+/* Center the form vertically and horizontally */
+.centeredFormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the form */
+  .form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style form elements */
+  .formGroup {
+    margin: 10px 0;
+  }
+  
+  .formGroup input,
+  .formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .moneyInfo {
+    display: flex;
+    align-items: center;
+    background-color: #8c6dfd;
+    padding: 4px;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .moneyIcon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .moneyInfoText {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .goalAndEndDate input {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+  }
+  
+  .submitButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .submitButton {
+    background-color: #1dc071;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #15a260;
+  }
+  

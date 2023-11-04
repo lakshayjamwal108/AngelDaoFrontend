@@ -1,0 +1,117 @@
+/* CreateCampaign.module.css */
+.main {
+    padding: 40px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .form {
+    background-color: rgba(115, 151, 184, 0.151);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .formGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formGroup input[type="date"] {
+    padding: 10px 7px; /* Adjust the padding for date input */
+  }
+  
+  .moneyInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .moneyIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .moneyInfoText {
+    color: #333;
+  }
+  
+  .submitButtonContainer {
+    text-align: center;
+  }
+  
+  .submitButton {
+    background-color: #8c6dfd;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #6d52d2;
+  }
+  
+  
+.gradientText0 {
+    background: -webkit-linear-gradient(#bfa3da, #84309c, #c735b0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .gradientText1 {
+    background: -webkit-linear-gradient(#a79af9, #7aa8d2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .gradientText2 {
+    background: -webkit-linear-gradient(#bfa3da, #743f93);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .gradientText3 {
+    background: -webkit-linear-gradient(#c35ab1, #e9a8d9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .title {
+    line-height: 1.15;
+    font-size: 3rem;
+  }

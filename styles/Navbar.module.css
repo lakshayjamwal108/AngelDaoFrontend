@@ -1,0 +1,33 @@
+/* components/NavBar.module.css */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-translucent background */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navlist {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navitem {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-translucent rectangle */
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navitem:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Change color on hover */
+  }
+  
+  .navitem a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Add additional styles as needed */
+  
