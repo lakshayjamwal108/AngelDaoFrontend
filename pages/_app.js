@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThirdwebProvider
       activeChain={Sepolia}
-      clientId="c7d50f540d515732f5e7630791da79a2"//add your thirdweb client id here
+      clientId=""//add your thirdweb client id here
     >
       <MyComponent> {/* Wrap your entire application with MyComponent */}
       <Navbar/>
